@@ -3,10 +3,10 @@ var mysql2 = require('mysql2');
 require('dotenv').config();
 
 var connection = mysql2.createConnection({
-  host: process.env.HOST,
-  user: process.env.DATABASE_USER,
-  password: process.env.DATABASE_PASSWORD,
-  database: process.env.DATABASE_NAME,
+  host: 'biqtzwqiihjmw2npadtd-mysql.services.clever-cloud.com',
+  user: 'ugdo5cy8qombfwq4',
+  password: 'A4qFZmXD54zeFiZRzcq4',
+  database: 'biqtzwqiihjmw2npadtd',
 });
 
 module.exports = connection;

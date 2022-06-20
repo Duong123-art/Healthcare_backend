@@ -31,7 +31,7 @@ module.exports = {
         ) {
           const accessToken = jwt.sign(
             { ...userAccount, Role: result[0].Role },
-            process.env.PRIVATE_TOKEN_KEY,
+            "8'!$-!.M$jx>c?se",
             {
               expiresIn: '7d',
             }
