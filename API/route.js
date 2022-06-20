@@ -12,7 +12,7 @@ module.exports = function (app) {
 
       console.log('Authorization');
       try {
-        jwt.verify(token, process.env.PRIVATE_TOKEN_KEY, (err, data) => {
+        jwt.verify(token, "8'!$-!.M$jx>c?se", (err, data) => {
           if (err) {
             req.locals.message = 'error';
             console.log(err);
